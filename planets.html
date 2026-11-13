@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="태양계 8개 행성의 특징과 흥미로운 사실">
+  <title>태양계 탐험 | 행성 소개</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🪐%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo"><span class="logo-dot"></span>태양계 탐험</a>
+      <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="planets.html" class="active">행성 소개</a></li>
+        <li><a href="compare.html">행성 비교</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-hero reveal">
+      <h1>행성 소개</h1>
+      <p>태양에서 가까운 순서대로 8개의 행성을 소개합니다. 카드를 누르면 자세한 정보를 볼 수 있어요.</p>
+    </section>
+
+    <div class="filters" role="group" aria-label="행성 종류 필터">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="rocky">암석형</button>
+      <button class="filter-btn" data-filter="gas">가스형</button>
+      <button class="filter-btn" data-filter="ice">얼음형</button>
+    </div>
+
+    <section class="planet-grid" id="planet-grid" style="padding-bottom:72px"></section>
+  </main>
+
+  <div class="modal" id="planet-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="닫기">✕</button>
+      <div id="modal-body" style="display:contents"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>태양계 탐험 · 교육용 정보 사이트</p>
+      <p>행성 이미지: NASA (퍼블릭 도메인), Wikimedia Commons 제공 · <a href="compare.html#credits">이미지 출처 보기</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/planets.js"></script>
+</body>
+</html>
