@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVIDIA 기업 분석</title>
+<meta name="description" content="NVIDIA(NVDA) 2027 회계연도 2분기 실적, CEO 사임 이슈, 데이터센터, 경쟁사 비교, 시나리오 밸류에이션. 투자 자문이 아닙니다.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231428a0'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../css/stock-analysis.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div class="switcher"><div class="wrap"><span>기업 분석</span><a href="../samsung/">삼성전자</a><a href="../skhynix/">SK하이닉스</a><a href="../nvidia/" aria-current="page">NVIDIA</a></div></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">기업 분석 · Nasdaq NVDA · 기준일 2026-11-13</div>
+    <h1>NVIDIA: 실적은 최고, 리더십은 공백</h1>
+    <p class="lead">최근 분기 매출 962억 달러(+106%)로 성장은 계속되고 있습니다. 그러나 11월 12일 창업자 젠슨 황이 CEO에서 사임했고, 주가는 6주 연속 하락 중입니다. 11월 17일 3분기 실적 발표를 앞두고 실적, 경쟁 구도, 리스크, 시나리오별 가치를 정리했습니다.</p>
+    <div class="callout" style="margin-top:18px">
+      <b>투자 자문이 아닙니다.</b> 공개된 실적 발표와 보도를 정리한 학습·참고용 자료입니다. CEO 관련 사안은 조사가 진행 중이며 보도 내용이 바뀔 수 있습니다. 투자 판단 전에는 SEC 공시와 증권사 자료로 반드시 확인하세요.
+    </div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="목차">
+  <div class="wrap">
+    <a href="#alert">CEO 사임</a><a href="#kpi">핵심 지표</a><a href="#trend">실적 추이</a><a href="#segments">사업부</a><a href="#outlook">전망</a><a href="#comps">경쟁사 비교</a><a href="#moat">경쟁우위</a><a href="#thesis">투자포인트·리스크</a><a href="#valuation">밸류에이션</a><a href="#sources">출처</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="alert">
+  <div class="alert">
+    <h3>⚠️ 긴급 이슈: 젠슨 황 CEO 사임 (2026-11-12)</h3>
+    <ul class="clean">
+      <li><b>11/9</b>: 이사회가 CEO와 중국 스파이로 지목된 인물의 관계에 대해 독립 조사 착수 → 주가 −4.27% <sup><a href="#s6">6</a></sup></li>
+      <li><b>11/10</b>: 주주 집단소송 제기 → 주가 −5.47% <sup><a href="#s6">6</a></sup></li>
+      <li><b>11/11</b>: 두 번째 부적절한 관계 보도 → 시간외 약 −7% <sup><a href="#s6">6</a></sup></li>
+      <li><b>11/12</b>: <b>젠슨 황 CEO·이사직 즉시 사임</b>. CFO <b>콜렛 크레스가 임시 CEO</b>(CFO 겸임), 하비 존스가 첫 이사회 의장. 주가 −4.34% <sup><a href="#s7">7</a></sup></li>
+      <li>Bernstein 목표주가 400 → 200달러. 주가는 6주 연속 하락으로 <b>2012년 이후 최장 하락</b>, 6주간 시가총액 약 1.6조 달러 감소 <sup><a href="#s6">6</a></sup></li>
+    </ul>
+    <p class="flag" style="margin:8px 0 0">개인 관련 내용은 언론 보도이며 회사가 확인한 사실이 아닙니다. 이 페이지는 사업과 주가에 미치는 영향만 다룹니다.</p>
+  </div>
+</section>
+
+<section id="kpi">
+  <h2>핵심 지표</h2>
+  <p class="sub">2027 회계연도 2분기(2026년 5–7월, 8/26 발표) 실적과 11/12 종가 기준</p>
+  <div class="grid kpis">
+    <div class="card kpi"><div class="label">매출</div><div class="value">$96.2B</div><div class="note"><span class="pos">+106% YoY</span> · +18% QoQ <sup><a href="#s1">1</a></sup></div></div>
+    <div class="card kpi"><div class="label">데이터센터 매출</div><div class="value">$89.0B</div><div class="note"><span class="pos">+117% YoY</span> · 전체의 92.5% <sup><a href="#s1">1</a></sup></div></div>
+    <div class="card kpi"><div class="label">매출총이익률 (GAAP)</div><div class="value">75.0%</div><div class="note">3분기 가이던스 74.0% ±0.5%p <sup><a href="#s1">1</a></sup></div></div>
+    <div class="card kpi"><div class="label">순이익 · EPS (GAAP)</div><div class="value">$54.0B</div><div class="note">EPS $2.46 (Non-GAAP $2.22) <sup><a href="#s1">1</a></sup></div></div>
+    <div class="card kpi"><div class="label">주가 (11/12 종가)</div><div class="value">$166.19</div><div class="note"><span class="neg">−4.34%</span> · 6주 연속 하락 <sup><a href="#s5">5</a></sup></div></div>
+    <div class="card kpi"><div class="label">시가총액 · PER</div><div class="value">약 $4.0T</div><div class="note">최근 4분기 PER 약 21x [계산] <sup><a href="#s5">5</a></sup></div></div>
+  </div>
+</section>
+
+<section id="trend">
+  <h2>분기 실적 추이</h2>
+  <p class="sub">매 분기 사상 최대 매출을 기록했습니다. 점선 막대는 3분기 회사 가이던스이며, 11/17 실적 발표에서 확정됩니다.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3 style="margin-top:0">매출·순이익 (십억 달러)</h3>
+      <div class="chart-box"><canvas id="trendChart" aria-label="분기별 매출과 순이익 차트"></canvas></div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">수치표</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>분기 (회계연도)</th><th>매출</th><th>순이익 (GAAP)</th><th>EPS</th></tr></thead>
+          <tbody>
+            <tr><td>FY26 Q2 (25.5–7월)</td><td>46.7</td><td>–</td><td>–</td></tr>
+            <tr><td>FY26 Q3</td><td>57.0</td><td>31.9</td><td>$1.30</td></tr>
+            <tr><td>FY26 Q4</td><td>68.1</td><td>43.0</td><td>$1.76</td></tr>
+            <tr><td>FY27 Q1</td><td>81.6</td><td>58.3</td><td>$2.39</td></tr>
+            <tr><td><b>FY27 Q2</b></td><td><b>96.2</b></td><td><b>54.0</b></td><td><b>$2.46</b></td></tr>
+            <tr><td>FY27 Q3 <span class="tag">가이던스</span></td><td>108.0 ±2%</td><td>–</td><td>컨센서스 $2.47</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="flag" style="margin-top:10px">출처 <a href="#s1">1</a>, <a href="#s2">2</a>, <a href="#s3">3</a>, <a href="#s4">4</a>. 2026 회계연도 연간 매출은 2,159억 달러(+65%)입니다. FY27 Q1 순이익에는 보유 지분 평가이익이 포함된 것으로 보도되었습니다. FY27부터 Non-GAAP 기준에서 주식보상비용을 빼지 않도록 바뀌었습니다.</p>
+    </div>
+  </div>
+</section>
+
+<section id="segments">
+  <h2>사업부별 매출 (FY27 Q2)</h2>
+  <p class="sub">FY27부터 <b>데이터센터</b>와 <b>엣지 컴퓨팅</b> 두 플랫폼으로 공시합니다. 엣지 컴퓨팅에는 기존 게이밍, 전문가용 그래픽, 자동차, OEM이 들어갑니다. 매출의 92%가 데이터센터에서 나오고, 그 절반 이상이 대형 클라우드(하이퍼스케일러)입니다.</p>
+  <div class="grid two">
+    <div class="card"><div class="chart-box"><canvas id="segChart" aria-label="사업부별 매출 도넛 차트"></canvas></div></div>
+    <div class="card">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>사업부</th><th>매출 ($B)</th><th>YoY</th><th>비중</th></tr></thead>
+          <tbody>
+            <tr><td>데이터센터</td><td>89.0</td><td class="pos">+117%</td><td>92.5%</td></tr>
+            <tr><td>&nbsp;└ 하이퍼스케일</td><td>48.7</td><td class="pos">+101%</td><td>50.6%</td></tr>
+            <tr><td>&nbsp;└ AI 클라우드·산업·기업</td><td>40.3</td><td class="pos">+138%</td><td>41.9%</td></tr>
+            <tr><td>엣지 컴퓨팅</td><td>7.2</td><td class="pos">+27%</td><td>7.5%</td></tr>
+            <tr><td><b>합계</b></td><td><b>96.2</b></td><td class="pos"><b>+106%</b></td><td>100%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="flag" style="margin-top:10px">출처 <a href="#s1">1</a>, <a href="#s8">8</a>. 하위 구분은 2차 자료 기준이고, 증가율은 보도된 전년 수치(24.2, 16.9)로 계산했습니다. 중국향 Hopper 출하는 데이터센터 매출의 1% 미만입니다.</p>
+    </div>
+  </div>
+</section>
+
+<section id="outlook">
+  <h2>전망과 체크포인트</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3 style="margin-top:0">회사 가이던스</h3>
+      <ul class="clean">
+        <li>FY27 Q3 매출 <b>1,080억 달러 ±2%</b>. 중국 데이터센터 매출은 0으로 가정 <sup><a href="#s1">1</a></sup></li>
+        <li>매출총이익률 74.0% ±0.5%p로 하락 예상 <sup><a href="#s1">1</a></sup></li>
+        <li>젠슨 황(당시 CEO)은 <b>FY28 매출 70% 성장</b>을 전망. 시장 예상치를 크게 웃돔 <sup><a href="#s2">2</a></sup></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">11/17 실적 발표에서 볼 것</h3>
+      <ul class="clean">
+        <li>매출 컨센서스 약 1,088–1,090억 달러, EPS $2.47–2.49 <sup><a href="#s4">4</a></sup></li>
+        <li><b>이익률 바닥</b>: 메모리 원가 상승으로 1월 분기에 71–72%까지 낮아질 수 있다는 보도 <sup><a href="#s4">4</a></sup></li>
+        <li>CEO 공백 속에서 FY28 70% 성장 전망을 유지하는지 여부</li>
+        <li>독립 조사 결과와 차기 CEO 선임 일정</li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout" style="margin-top:14px">
+    <b>💡 메모리 3사와의 연결고리</b>: NVIDIA 이익률을 깎는 "메모리 원가 상승"은 <a href="../skhynix/">SK하이닉스</a>(이익률 80%)와 <a href="../samsung/">삼성전자</a> 반도체(72%)의 사상 최대 실적과 같은 현상의 양면입니다. AI 서버 가치의 일부가 GPU에서 HBM으로 옮겨 가고 있습니다.
+  </div>
+</section>
+
+<section id="comps">
+  <h2>경쟁사 비교</h2>
+  <p class="sub">AI 가속기 시장 점유율과 시장 평가입니다. <b>점유율은 추정 기관마다, 시가총액과 PER은 기준일마다 다릅니다.</b></p>
+  <div class="grid two">
+    <div class="card">
+      <h3 style="margin-top:0">AI 가속기 점유율 추정 (2026)</h3>
+      <div class="chart-box"><canvas id="shareChart" aria-label="AI 가속기 점유율 막대 차트"></canvas></div>
+      <p class="flag">출처 <a href="#s9">9</a>. 범위의 중간값으로 표시했습니다. NVIDIA는 2023년 약 92%에서 75–81%로 낮아진 것으로 추정됩니다.</p>
+    </div>
+    <div class="card table-wrap">
+      <table>
+        <thead><tr><th>기업</th><th>시가총액</th><th>PER</th><th class="wrap-cell">기준 · 비고</th></tr></thead>
+        <tbody>
+          <tr><td><b>NVIDIA</b></td><td>약 $4.0T</td><td>약 21x (최근 4분기)</td><td class="wrap-cell">11/12 종가 [계산] <a href="#s5">5</a></td></tr>
+          <tr><td>TSMC</td><td>약 $2.1T</td><td>28.6x</td><td class="wrap-cell">10–11월 <a href="#s10">10</a></td></tr>
+          <tr><td>Broadcom</td><td>$1.53–1.73T</td><td>Fwd 15–19x</td><td class="wrap-cell">11월, 자료마다 다름 <a href="#s9">9</a></td></tr>
+          <tr><td>SK하이닉스</td><td>약 $1.0T</td><td>5.76x</td><td class="wrap-cell">11/11–13 <a href="../skhynix/">페이지</a></td></tr>
+          <tr><td>AMD</td><td>$0.96–1.0T</td><td>Fwd 약 35x</td><td class="wrap-cell">9–11월 <span class="tag">오래됨</span> <a href="#s9">9</a></td></tr>
+        </tbody>
+      </table>
+      <p class="flag" style="margin-top:10px">NVIDIA PER은 최근 4분기 GAAP EPS 합계($7.91)로 계산했습니다. FY27 Q1의 지분 평가이익이 포함되어 실제 영업 기준보다 다소 낮게 나올 수 있습니다.</p>
+    </div>
+  </div>
+</section>
+
+<section id="moat">
+  <h2>경쟁우위 평가</h2>
+  <p class="sub">competitive-analysis 스킬의 해자 프레임워크를 적용한 <b>정성적 판단</b>입니다.</p>
+  <div class="card table-wrap">
+    <table>
+      <thead><tr><th>구분</th><th>NVIDIA</th><th>AMD</th><th>Broadcom (맞춤칩)</th><th>Google TPU</th></tr></thead>
+      <tbody>
+        <tr><td>네트워크 효과 (개발자 생태계)</td><td><span class="dots">●●●</span> 강함 (CUDA)</td><td><span class="dots">●○○</span> 약함</td><td><span class="dots">●○○</span> 약함</td><td><span class="dots">●●○</span> 중간</td></tr>
+        <tr><td>전환 비용</td><td><span class="dots">●●●</span> 강함</td><td><span class="dots">●○○</span> 약함</td><td><span class="dots">●●●</span> 강함</td><td><span class="dots">●●○</span> 중간</td></tr>
+        <tr><td>규모의 경제</td><td><span class="dots">●●●</span> 강함</td><td><span class="dots">●●○</span> 중간</td><td><span class="dots">●●○</span> 중간</td><td><span class="dots">●●○</span> 중간</td></tr>
+        <tr><td>시스템 통합 (칩+네트워크+SW)</td><td><span class="dots">●●●</span> 강함</td><td><span class="dots">●●○</span> 중간</td><td><span class="dots">●●○</span> 중간</td><td><span class="dots">●●○</span> 중간</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid two" style="margin-top:14px">
+    <div class="card">
+      <h3 style="margin-top:0">지속 가능한 강점</h3>
+      <ul class="clean">
+        <li><b>CUDA 소프트웨어 생태계</b>: 개발자와 코드가 쌓여 있어 바꾸기 어려움</li>
+        <li>GPU, 네트워킹, 시스템을 묶어 파는 <b>풀스택 공급 능력</b></li>
+        <li>점유율이 내려왔어도 여전히 시장의 4분의 3 이상</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">구조적 약점</h3>
+      <ul class="clean">
+        <li><b>고객 집중</b>: 데이터센터 매출의 약 55%가 하이퍼스케일러. 이들이 자체 칩(TPU, 맞춤칩)도 키우는 중</li>
+        <li><b>원가 상승</b>: HBM 등 메모리 가격 상승이 이익률을 압박</li>
+        <li><b>창업자 의존</b>: 33년간 회사를 이끈 창업자가 갑자기 떠남</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="thesis">
+  <h2>투자포인트와 리스크</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3 style="margin-top:0" class="pos">▲ 투자포인트</h3>
+      <ul class="clean">
+        <li><b>성장 지속</b>: 매출 +106% YoY, 다음 분기도 약 +12% QoQ 가이던스</li>
+        <li><b>FY28 70% 성장 전망</b> (시장 예상 상회)</li>
+        <li><b>밸류에이션 하락</b>: 주가 급락으로 PER 약 21x. 고성장 기업으로는 낮은 편</li>
+        <li>매출총이익률 74–75%로 여전히 최상위권</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0" class="neg">▼ 리스크</h3>
+      <ul class="clean">
+        <li><b>리더십 공백</b>: 임시 CEO 체제, 후임 미정. Bernstein은 "리더십 할인"을 이유로 목표주가 절반 축소</li>
+        <li><b>법적·규제 리스크</b>: 독립 조사 진행 중, 주주 집단소송, 중국 관련 보안 우려</li>
+        <li><b>이익률 하락</b>: 75% → 74% (가이던스) → 71–72% 가능성</li>
+        <li><b>중국 매출 제외</b>, 하이퍼스케일러의 자체 칩 확대</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="valuation">
+  <h2>시나리오 밸류에이션</h2>
+  <p class="sub">다른 두 페이지와 같은 <b>"주당순이익(EPS) × PER"</b> 방식입니다. 기본값은 최근 4분기 GAAP EPS $7.91 × PER 21.0x입니다. 그래서 결과는 현재 주가와 거의 같습니다. 즉 <b>현재 주가에 시장이 반영한 기대치</b>입니다.</p>
+  <div class="card">
+    <div class="controls">
+      <div>
+        <label for="eps">주당순이익(EPS): <output id="epsOut"></output></label>
+        <input type="range" id="eps" min="4" max="14" step="0.01" value="7.91">
+        <div class="flag">최근 4분기 GAAP 합계 $7.91 [계산] · FY27 Q3 컨센서스 $2.47 × 4 ≈ $9.88</div>
+      </div>
+      <div>
+        <label for="per">적용 PER(배): <output id="perOut"></output></label>
+        <input type="range" id="per" min="8" max="45" step="0.1" value="21">
+        <div class="flag">현재 약 21x · TSMC 28.6x · Broadcom Fwd 15–19x</div>
+      </div>
+    </div>
+    <div class="result">
+      <div>적정 주가 <div class="big" id="fair">–</div></div>
+      <div>현재가 $166.19 대비 <div class="big" id="upside">–</div></div>
+    </div>
+  </div>
+
+  <h3>민감도 표 (EPS × PER, 단위: 달러)</h3>
+  <p class="flag">가운데 칸이 현재 슬라이더의 기준값입니다.</p>
+  <div class="card table-wrap"><table class="sens" id="sens"></table></div>
+
+  <h3>참고 시나리오</h3>
+  <div class="card table-wrap">
+    <table>
+      <thead><tr><th>시나리오</th><th>가정</th><th>EPS</th><th>PER</th><th>적정 주가</th></tr></thead>
+      <tbody id="scen"></tbody>
+    </table>
+    <p class="flag" style="margin-top:10px">시나리오 가정은 학습용 예시입니다. 확률이나 목표주가를 제시하는 것이 아닙니다.</p>
+  </div>
+</section>
+
+<section id="sources" class="src">
+  <h2 style="color:var(--text)">출처</h2>
+  <p>기관용 금융 데이터(MCP)는 연결되어 있지 않아 회사 실적 발표, SEC 공시, 보도를 사용했습니다.</p>
+  <ol>
+    <li id="s1">NVIDIA, "Financial Results for Second Quarter Fiscal 2027" (2026-08-26) — <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/">링크</a> · SEC 8-K — <a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm">링크</a></li>
+    <li id="s2">CNBC, "Nvidia earnings takeaways: Huang forecasts 70% fiscal 2028 revenue growth" — <a href="https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html">링크</a></li>
+    <li id="s3">NVIDIA, "Fourth Quarter and Fiscal 2026" — <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026">링크</a> · "First Quarter Fiscal 2027" — <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027">링크</a></li>
+    <li id="s4">MarketBeat, Q3 2027 Earnings — <a href="https://www.marketbeat.com/earnings/reports/2026-11-17-nvidia-co-stock/">링크</a> · TipRanks — <a href="https://www.tipranks.com/news/nvidia-nvda-pre-earnings-analysts-expect-88-earnings-growth-in-q3">링크</a> · Motley Fool (11/10) — <a href="https://www.fool.com/investing/2026/11/10/prediction-nov-17-will-be-a-huge-day-for-the-stock-market/">링크</a></li>
+    <li id="s5">TipRanks, NVDA 시가총액 — <a href="https://www.tipranks.com/stocks/nvda/market-cap">링크</a> · CompaniesMarketCap — <a href="https://companiesmarketcap.com/nvidia/marketcap/">링크</a></li>
+    <li id="s6">CNBC (11/9, 11/10, 11/12, 11/13) — <a href="https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html">링크</a> · <a href="https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html">링크</a> · <a href="https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html">링크</a> · <a href="https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html">링크</a> · Axios — <a href="https://www.axios.com/2026/11/11/nvidia-jensen-huang-affair-shares">링크</a></li>
+    <li id="s7">NVIDIA SEC 8-K, CEO 교체 공시 — <a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm">링크</a> · Washington Post — <a href="https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/">링크</a></li>
+    <li id="s8">Substack, "Nvidia Q2 FY2027 revenue doubled" — <a href="https://studios.substack.com/p/nvda-q2-fy2027-revenue-doubled-year">링크</a> · WallStreetDebug — <a href="https://wallstreetdebug.com/articles/nvidia-q2-fiscal-2027-results-decoded/">링크</a></li>
+    <li id="s9">Silicon Analysts, AMD vs NVIDIA 점유율 — <a href="https://siliconanalysts.com/analysis/amd-vs-nvidia-ai-gpu-market-share-2026">링크</a> · Motley Fool (11/9) — <a href="https://www.fool.com/investing/2026/11/09/not-amd-not-intel-this-is-the-artificial-intellige/">링크</a> · Investing.com — <a href="https://www.investing.com/analysis/5-ai-chip-stocks-to-buy-as-nvidias-turmoil-reshapes-the-sector-200691517">링크</a></li>
+    <li id="s10">Motley Fool, SK Hynix vs TSMC — <a href="https://www.fool.com/coverage/better-buy/2026/10/07/sk-hynix-vs-taiwan-semiconductor-manufacturing-which-computer-chip-stock-is-a-better-buy-in-2026/">링크</a></li>
+  </ol>
+  <h3 style="color:var(--text)">분석 방법</h3>
+  <p>Anthropic <a href="https://github.com/anthropics/financial-services">financial-services</a>의 competitive-analysis, comps-analysis, dcf-model(민감도 표 원칙), earnings-analysis 스킬(Apache 2.0)을 웹페이지 형식에 맞게 적용했습니다. [계산] 표시는 공개 수치로 직접 계산한 값입니다.</p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">작성일 2026-11-13 · 학습·참고용 자료이며 투자 권유가 아닙니다. 모든 수치는 출처 원문과 SEC 공시로 재확인하세요.</div>
+</footer>
+
+<script>
+(function(){
+  const fmt = n => '$'+n.toFixed(2);
+  const PRICE = 166.19;
+  const pc = up => { const v=(up*100).toFixed(1); return v==='-0.0'?'0.0%':(up>=0?'+':'')+v+'%'; };
+  const eps=document.getElementById('eps'), per=document.getElementById('per');
+  function render(){
+    const e=+eps.value, p=+per.value, v=e*p, up=v/PRICE-1;
+    document.getElementById('epsOut').textContent=fmt(e);
+    document.getElementById('perOut').textContent=p.toFixed(1)+'x';
+    document.getElementById('fair').textContent=fmt(v);
+    const u=document.getElementById('upside');
+    u.textContent=pc(up); u.className='big '+(up>=0?'pos':'neg');
+    const eS=[-0.30,-0.15,0,0.15,0.30], pS=[-6,-3,0,3,6];
+    let h='<thead><tr><th>EPS ＼ PER</th>'+pS.map(d=>'<th>'+Math.max(1,p+d).toFixed(1)+'x</th>').join('')+'</tr></thead><tbody>';
+    eS.forEach((de,i)=>{const ee=e*(1+de);
+      h+='<tr><th>'+fmt(ee)+'</th>'+pS.map((dp,j)=>'<td class="'+(i===2&&j===2?'center':'')+'">'+fmt(ee*Math.max(1,p+dp))+'</td>').join('')+'</tr>';});
+    document.getElementById('sens').innerHTML=h+'</tbody>';
+  }
+  eps.addEventListener('input',render); per.addEventListener('input',render); render();
+
+  const scen=[
+    ['강세','실적 컨센서스 달성, 리더십 불확실성 해소로 PER 회복',9.88,28],
+    ['기준','최근 4분기 EPS와 현재 PER 유지',7.91,21],
+    ['약세','이익률 하락과 리더십 할인 지속',7.0,15]
+  ];
+  document.getElementById('scen').innerHTML=scen.map(s=>{const v=s[2]*s[3],up=v/PRICE-1;
+    return '<tr><td><b>'+s[0]+'</b></td><td class="wrap-cell">'+s[1]+'</td><td>'+fmt(s[2])+'</td><td>'+s[3]+'x</td><td>'+fmt(v)+' <span class="'+(up>=0?'pos':'neg')+'">('+pc(up)+')</span></td></tr>';}).join('');
+
+  if(!window.Chart) return;
+  const css=getComputedStyle(document.documentElement), c=k=>css.getPropertyValue(k).trim();
+  Chart.defaults.color=c('--muted'); Chart.defaults.borderColor=c('--line');
+  Chart.defaults.font.family=getComputedStyle(document.body).fontFamily;
+  const base={responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}};
+
+  new Chart(document.getElementById('trendChart'),{type:'bar',data:{labels:['FY26 Q2','FY26 Q3','FY26 Q4','FY27 Q1','FY27 Q2','FY27 Q3(E)'],
+    datasets:[{label:'매출',data:[46.7,57.0,68.1,81.6,96.2,108.0],backgroundColor:[c('--c3'),c('--c3'),c('--c3'),c('--c3'),c('--c3'),'transparent'],
+               borderColor:c('--c3'),borderWidth:[0,0,0,0,0,2],borderDash:[4,4],borderRadius:6},
+              {label:'순이익 (GAAP)',data:[null,31.9,43.0,58.3,54.0,null],backgroundColor:c('--c4'),borderRadius:6}]},
+    options:{...base,scales:{y:{beginAtZero:true,title:{display:true,text:'십억 달러'}}}}});
+
+  new Chart(document.getElementById('segChart'),{type:'doughnut',data:{labels:['하이퍼스케일','AI 클라우드·산업·기업','엣지 컴퓨팅'],
+    datasets:[{data:[48.7,40.3,7.2],backgroundColor:[c('--c1'),c('--c2'),c('--c5')],borderColor:c('--surface'),borderWidth:2}]},
+    options:{...base,cutout:'58%'}});
+
+  new Chart(document.getElementById('shareChart'),{type:'bar',data:{labels:['NVIDIA','Google TPU','AMD','기타·맞춤칩'],
+    datasets:[{label:'점유율 % (추정 중간값)',data:[78,7,6,9],backgroundColor:[c('--c4'),c('--c2'),c('--neg'),c('--c3')],borderRadius:6}]},
+    options:{...base,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,max:100,title:{display:true,text:'%'}}}}});
+})();
+</script>
+</body>
+</html>
